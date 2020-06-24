@@ -62,7 +62,7 @@ functions:
     events:
       - http:
           path: notes/{id}
-          method: update
+          method: put
           cors: true
           authorizer: aws_iam
   delete:
